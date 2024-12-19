@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Nirvik Alkaline, Nirvik Solar, Vikram Singh & Power, Nirvik Engineering - Innovation and Resilience for a Sustainable Future">
+    <title>Nirvik Group</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background: linear-gradient(to right, #007bff, #28a745, #ffc107);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ffc107;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: url('https://via.placeholder.com/1500x500') no-repeat center center;
+            background-size: cover;
+            color: white;
+        }
+        .hero h2 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .section h3 {
+            margin-bottom: 20px;
+        }
+        .section .card {
+            display: inline-block;
+            margin: 15px;
+            padding: 20px;
+            width: 250px;
+            background-color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Nirvik Group</h1>
+        <p>Innovation and Resilience for a Sustainable Future</p>
+    </header>
+    
+    <nav>
+        <a href="#nirvik-alkaline">Nirvik Alkaline</a>
+        <a href="#nirvik-solar">Nirvik Solar</a>
+        <a href="#vikram-singh">Vikram Singh & Power</a>
+        <a href="#nirvik-engineering">Nirvik Engineering</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Your Partner in Innovation</h2>
+        <p>Discover cutting-edge solutions in water, solar, electrification, and engineering.</p>
+    </section>
+
+    <section id="nirvik-alkaline" class="section">
+        <h3>Nirvik Alkaline</h3>
+        <div class="card">
+            <img src="https://via.placeholder.com/250x150" alt="Alkaline Water">
+            <p>Pure, healthy alkaline water for a better life.</p>
+        </div>
+    </section>
+
+    <section id="nirvik-solar" class="section">
+        <h3>Nirvik Solar</h3>
+        <div class="card">
+            <img src="https://via.placeholder.com/250x150" alt="Solar Solutions">
+            <p>Powering a sustainable future with clean energy.</p>
+        </div>
+    </section>
+
+    <section id="vikram-singh" class="section">
+        <h3>Vikram Singh & Power</h3>
+        <div class="card">
+            <img src="https://via.placeholder.com/250x150" alt="Electrification">
+            <p>Electrification and power solutions that inspire trust.</p>
+        </div>
+    </section>
+
+    <section id="nirvik-engineering" class="section">
+        <h3>Nirvik Engineering</h3>
+        <div class="card">
+            <img src="https://via.placeholder.com/250x150" alt="Engineering">
+            <p>Innovative engineering solutions for every challenge.</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>Contact us at info@nirvikgroup.com | Call: +91-1234567890</p>
+        <p>&copy; 2024 Nirvik Group. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

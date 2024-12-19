@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirvik Group</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .hero {
+            background: url('images/background.png') no-repeat center center;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 150px 20px;
+        }
+        .section {
+            padding: 50px 20px;
+        }
+        .section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .card {
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px 20px;
+        }
+        header nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        header nav a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .logo {
+            height: 50px;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <div class="container d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center">
+            <img src="images/nirvik-group-logo.png" alt="Nirvik Group Logo" class="logo">
+            <h1>Nirvik Group</h1>
+        </div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#business">Our Businesses</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+
+    <section class="hero">
+        <h1>Welcome to Nirvik Group</h1>
+        <p>Innovation and Resilience for a Sustainable Future</p>
+    </section>
+
+    <section id="about" class="section bg-light">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are committed to innovation, sustainability, and resilience across multiple industries. From clean alkaline water solutions to advanced solar energy projects, Nirvik Group stands as a beacon of progress and reliability.</p>
+        </div>
+    </section>
+
+    <section id="business" class="section">
+        <div class="container">
+            <h2>Our Businesses</h2>
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <a href="alkaline.html" style="text-decoration: none; color: inherit;">
+                        <div class="card p-3">
+                            <img src="images/alkaline water.png" alt="Alkaline" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Nirvik Alkaline</h5>
+                                <p class="card-text">Clean, healthy alkaline water for a better life.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="solar.html" style="text-decoration: none; color: inherit;">
+                        <div class="card p-3">
+                            <img src="images/nirvik solar.png" alt="Solar" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Nirvik Solar</h5>
+                                <p class="card-text">Powering a sustainable future with clean energy.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="power.html" style="text-decoration: none; color: inherit;">
+                        <div class="card p-3">
+                            <img src="images/vsp.png" alt="Power" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Vikram Singh & Power</h5>
+                                <p class="card-text">Electrification and power solutions that inspire trust.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="engineering.html" style="text-decoration: none; color: inherit;">
+                        <div class="card p-3">
+                            <img src="images/nirvik engineering.png" alt="Engineering" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Nirvik Engineering</h5>
+                                <p class="card-text">Innovative engineering solutions for every challenge.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2>Our Projects</h2>
+            <p>Discover the projects that showcase our expertise and commitment to innovation. From large-scale solar farms to advanced engineering solutions, Nirvik Group is transforming industries and communities.</p>
+        </div>
+    </section>
+
+    <div class="floating-contact">
+        <h4>Quick Connect</h4>
+        <div>
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Your Name">
+        </div>
+        <div>
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="Your Email">
+        </div>
+        <div>
+            <label for="message">Your Message</label>
+            <textarea id="message" placeholder="Your Message" rows="3"></textarea>
+        </div>
+        <button type="submit">Send</button>
+    </div>
+
+
+    <footer id="contact">
+        <div class="container">
+            <p>Contact us at <a href="mailto:nirvik.venture@gmail.com">nirvik.venture@gmail.com</a> | Call: +91-7883591261</p>
+            <p>&copy; 2024 Nirvik Group. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
